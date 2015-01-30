@@ -1,0 +1,35 @@
+{
+  "name": "pruno-mocha",
+  "version": "1.0.0",
+  "description": "A mocha test runner with should and coffee-script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdebotton/pruno-mocha.git"
+  },
+  "keywords": [
+    "mocha",
+    "bdd",
+    "tdd",
+    "tests",
+    "chai",
+    "should",
+    "pruno"
+  ],
+  "author": "Christian de Botton <debotton@brookylnunited.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdebotton/pruno-mocha/issues"
+  },
+  "homepage": "https://github.com/cdebotton/pruno-mocha",
+  "dependencies": {
+    "coffee-script": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^0.6.6",
+    "object-assign": "^2.0.0",
+    "should": "^4.6.2"
+  }
+}
