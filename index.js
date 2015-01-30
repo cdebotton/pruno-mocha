@@ -52,5 +52,12 @@ MochaTask.prototype.generateWatcher = function() {
   return true;
 };
 
+function getType(obj) {
+  return Object.prototype.toString.call(obj)
+    .match(/^\[object (.+)\]$/i)[1]
+    .toLowerCase();
+}
+
+
 module.exports = pruno.extend(MochaTask);
 
