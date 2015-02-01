@@ -1,6 +1,5 @@
 "use strict";
 
-var pruno = module.parent.require('pruno');
 var assign = require('object-assign');
 var plumber = require('gulp-plumber');
 var mocha = require('gulp-mocha');
@@ -41,8 +40,6 @@ MochaTask.prototype.enqueue = function(gulp, params) {
     }, {});
   }
 
-  pruno.notify('MochaTask', 'Running mocha');
-
   return gulp.src(params.search, {read: false})
     .pipe(plumber())
     .pipe(mocha(opts));
@@ -59,5 +56,5 @@ function getType(obj) {
 }
 
 
-module.exports = pruno.extend(MochaTask);
+module.exports = MochaTask;
 
