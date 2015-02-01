@@ -1,6 +1,6 @@
 {
   "name": "pruno-mocha",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mocha test runner with should and coffee-script",
   "main": "index.js",
   "scripts": {
